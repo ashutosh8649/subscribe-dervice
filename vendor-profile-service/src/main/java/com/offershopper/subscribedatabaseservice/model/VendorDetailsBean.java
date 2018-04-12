@@ -64,6 +64,69 @@ public void setLastName(String lastName) {
 public String getPassword() {
   return password;
 }
+public String getMobileNo() {
+  return mobileNo;
+}
+public void setMobileNo(String mobileNo) {
+  this.mobileNo = mobileNo;
+}
+public String getEmail() {
+  return email;
+}
+public void setEmail(String email) {
+  this.email = email;
+}
+public String getDob() {
+  return dob;
+}
+public void setDob(String dob) {
+  this.dob = dob;
+}
+public AddressBean getAddress() {
+  return address;
+}
+public void setAddress(AddressBean address) {
+  this.address = address;
+}
+public String getGender() {
+  return gender;
+}
+public void setGender(String gender) {
+  this.gender = gender;
+}
+public int getSpinCount() {
+  return spinCount;
+}
+public void setSpinCount(int spinCount) {
+  this.spinCount = spinCount;
+}
+public int getCreditPoint() {
+  return creditPoint;
+}
+public void setCreditPoint(int creditPoint) {
+  this.creditPoint = creditPoint;
+}
+public AddressBean getShopAddress() {
+  return shopAddress;
+}
+public void setShopAddress(AddressBean shopAddress) {
+  this.shopAddress = shopAddress;
+}
+public String getVendorMobileNo() {
+  return vendorMobileNo;
+}
+public void setVendorMobileNo(String vendorMobileNo) {
+  this.vendorMobileNo = vendorMobileNo;
+}
+public String getTimestamp() {
+  return timestamp;
+}
+public void setTimestamp(String timestamp) {
+  this.timestamp = timestamp;
+}
+public void setPassword(String password) {
+  this.password = password;
+}
   
   
 

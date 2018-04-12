@@ -12,11 +12,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 import org.xmlpull.v1.XmlPullParserException;
-
-import com.offershopper.subscribedatabaseservice.SubscribeDatabaseServiceApplication;
-
 import brave.sampler.Sampler;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
@@ -28,6 +26,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableDiscoveryClient
 @EnableSwagger2
 @EnableRabbit
+@EnableFeignClients("com.offershopper.subscribedatabaseservice")
 public class VendorProfileServiceApplication {
 
 	public static void main(String[] args) {
